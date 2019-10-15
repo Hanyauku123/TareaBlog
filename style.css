@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam|Rancho&display=swap');
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-image: url("/imagenes/fondo1.png");
+    background-size:100% 100%;
+}
+
+header{
+    height: 9%;
+    /* background: blueviolet; */
+    text-align: center;
+}
+
+h1{
+    padding: 0.5em;
+    font-family: 'Kalam', cursive;
+    font-size: 2em;
+    color: white;
+
+}
+
+.container{
+    /* background: aqua; */
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.menu{
+    /* background-color: coral; */
+    width: 20%;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    font-size: 25px;
+    padding: 1em;
+    color: white;
+}
+
+nav{
+    display: grid;  
+    justify-content: center;
+}
+
+button{
+    margin: 1.2em;
+    border-radius: 0.5em;
+    font-family:  'Kalam', cursive;
+    font-size: 17px;
+    width: 100px;
+    height:30px;
+    background: rgb(135, 206, 235);
+}
+
+button:hover{
+    background: transparent;
+    color: black !important;
+}
+
+.contenedor{
+    width: 80%;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 20px;
+    font-family:  'Kalam', cursive;
+    /* background-color: brown; */
+}
+
+h2 , h3, h4, h5, h6{
+    font-size: 2em;
+    text-align: initial;
+    color: white;
+}
+
+p{
+    font-size: 1.5em;
+    text-align: justify;
+    font-family: 'Rancho', cursive;
+    color: white;
+
+}
+
+footer{
+    height: 7%;
+    /* background-color: darkslateblue; */
+    font-family:  'Kalam', cursive;
+    text-align: center;
+    padding: 15px;
+    font-size: 17px;
+    color: white;
+}
+
+/*Imagenes*/
+.images{ /*monument*/
+    display: grid;
+    margin: 2em auto 0 8em;
+    width: 50%;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(5em, 5em);
+    grid-gap: 1em;
+    grid-auto-flow: row dense;
+}
+
+.img1 , .img2, .img8, .img4, .img5{
+    width:155px;
+    height:200px;
+    
+}
+
+.fotogr{/*fotogrfia*/
+    display: grid;
+    margin: 2.5em auto 0 2.5em;
+    width: 50%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(5em, 5em);
+    grid-gap: 1em;
+    grid-auto-flow: row dense;
+}
+
+.ft1, .ft2, .ft3, .ft4{
+    width:250px;
+    height:175px;  
+}
+
+.selene{/*Selene, diosa de la luna*/
+    display: grid;
+    margin: 2.5em auto 0 2.5em;
+    width: 50%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(5em, 5em);
+    grid-gap: 1em;
+    grid-auto-flow: row dense;
+}
+
+.sl1, .sl2, .sl3, .sl4{
+    width:250px;
+    height:230px;  
+}
+
+.multiple{/*Transtorno de personalidad multiple*/
+    display: grid;
+    margin: 2em auto 0 2em;
+    width: 50%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(5em, 5em);
+    grid-gap: 1em;
+    grid-auto-flow: row dense;
+}
+
+.mul1, .mul2, .mul3, .mul4{
+    width:260px;
+    height:200px;  
+}
+
+.coex{/*COEX Acuarium*/
+    display: grid;
+    margin: 2em auto 0 2em;
+    width: 50%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(5em, 5em);
+    grid-gap: 1em;
+    grid-auto-flow: row dense;
+}
+
+.co1, .co2, .co3, .co4{
+    width:260px;
+    height:200px;  
+}
+
+/*Fuente para Monument: https://www.xatakandroid.com/juegos-android/monument-valley-el-hermoso-juego-de-puzles-con-arquitecturas-imposibles-llega-a-android*/
+/*Fuente para fotografía: https://concepto.de/fotografia/#ixzz62R3wi9qP*/
+/*Fuente para Selene: https://www.mitologia.info/selene-diosa-la-luna/*/
+/*Fuente para Transtorno de personalidad multiple: http://www.loyolaandnews.es/loyolaandpsico/trastorno-de-personalidad-multiple/*/
+/*FUente para COEX Acuarium: https://es.wikipedia.org/wiki/Acuario_del_COEX*/
