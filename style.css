@@ -20,7 +20,7 @@ body{
     flex-direction: column;
     height: 100%;
     width: 100%;
-    background-image: url("/imagenes/fondo1.png");
+    background-image: url("imagenes/fondo1.png");
     background-size:100% 100%;
 }
 
